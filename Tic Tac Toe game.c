@@ -7,7 +7,6 @@ void board();
 int main()
 {
     int player = 1, i, choice;
-
     char mark;
     do
     {
@@ -64,10 +63,8 @@ int main()
         printf("==>\aPlayer %d win ", --player);
     else
         printf("==>\aGame draw");
-
     getch();
-
-    return 0;
+return 0;
 }
 
 
